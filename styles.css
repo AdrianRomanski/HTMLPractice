@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
     font-family: Arial;
 }
@@ -8,11 +20,13 @@ h1,h2 {
 }
 
 h1 {
+    margin-bottom: 20px;
     font-size: 40px;
 }
 
 h2 {
     font-size: 25px;
+    margin-bottom: 10px;
 }
 p {
     color:#5063b2;
@@ -23,8 +37,36 @@ p {
 .html-logo {
     text-align: justify;
     font-size: 25px;
-    color: chocolate
+    color: chocolate;
+    margin-bottom: 10px;
 }
 .author-text {
-    color: midnightblue
+    color: midnightblue;
+}
+
+.container {
+    width: 1140px;
+    margin: 20px,auto,0,auto
+}
+
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 25px;
+
+}
+
+.other-posts {
+    width: 25%;
+    float: right;
+
+}
+
+.author-box {
+    padding-top: 20px;
+    border-top: 1px solid #404040;
+}
+
+.css-logo {
+    color: cornflowerblue;
 }
